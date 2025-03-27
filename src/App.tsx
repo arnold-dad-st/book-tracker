@@ -4,6 +4,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  console.log(import.meta.env.AI_KEY); // "123"
 
   return (
     <>
